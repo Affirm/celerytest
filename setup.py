@@ -11,15 +11,15 @@ except ImportError:
 
 setup(
     name='celerytest',
-    version='0.1.1',
+    version='0.1.1-affirm',
     author=u'Willem Bult',
     author_email='willem.bult@gmail.com',
     packages=find_packages(),
     url='http://github.com/RentMethod/celerytest',
-    download_url='https://github.com/RentMethod/celerytest/archive/0.1.1.tar.gz',
+    #download_url='https://github.com/RentMethod/celerytest/archive/0.1.1.tar.gz',
     keywords=['celery','testing','integration','test'],
     license='BSD license, see LICENSE',
-    description='Run a monitored Celery worker for integration tests that depend on Celery tasks',
+    description='Run a monitored Celery worker for integration tests that depend on Celery tasks. Released from 42edb92.',
     long_description=read_md('README.md'),
     zip_safe=False,
     include_package_data=True,
