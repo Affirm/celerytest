@@ -11,7 +11,7 @@ except ImportError:
 
 setup(
     name='celerytest',
-    version='0.1.1-affirm',
+    version='0.1.1+affirm',
     author=u'Willem Bult',
     author_email='willem.bult@gmail.com',
     packages=find_packages(),
